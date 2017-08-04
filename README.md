@@ -4,7 +4,7 @@
 
 ## Objectives
 
-By the end of this lesson, students should be able to:
+By the end of this, developers should be able to:
 
 -   Diagram the DOM
 -   Reference jQuery documentation when learning a new technique
