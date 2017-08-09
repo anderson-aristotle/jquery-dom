@@ -4,7 +4,7 @@
 
 ## Objectives
 
-By the end of this lesson, students should be able to:
+By the end of this, developers should be able to:
 
 -   Diagram the DOM
 -   Reference jQuery documentation when learning a new technique
@@ -50,9 +50,6 @@ Demo translating a wireframe into a tree diagram.
 ## Code-Along: DOM Traversal
 
 -   Deface the [Jimmy Buffet](https://en.wikipedia.org/wiki/Jimmy_Buffett)
--   Add console snippet below to use jQuery.
-
-  `var script = document.createElement('script');script.src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js";document.getElementsByTagName('head')[0].appendChild(script);`
 
   <!-- Use jQuery to change the Jimmy Buffet page -->
 
