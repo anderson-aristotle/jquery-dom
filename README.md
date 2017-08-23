@@ -135,7 +135,7 @@ that this happens, the browser will search up the DOM chain until it finds
 an appropriate event handler.
 
 In the example below we have a click handler registered on the `<ul>` with
- `id="thisOne"`. However, if we were to click the 2nd `<li>` with
+ `id="thisOne"`. However, if we were to click the 3rd `<li>` with
  `<!--the innermost-->`, it will still run our click handler.
 
 ```html
