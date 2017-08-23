@@ -107,7 +107,7 @@ Here is a list of most commonly used jQuery API functions:
 Open the console in chrome and paste the following code in.
 
 ```js
-$("#toctitle").on('click', function(event){
+$(".toctitle").on('click', function(event){
   console.log("event is ", event);
 });
 ```
@@ -116,10 +116,10 @@ How would we access specific attributes of that event? Try adding this code
 now as well:
 
 ```js
-$("#toctitle").on('click', function(event){
+$(".toctitle").on('click', function(event){
   console.log("event.target is ", event.target);
 });
-$("#toctitle").on('click', function(event){
+$(".toctitle").on('click', function(event){
   console.log("event.type is ", event.type);
 });
 ```
@@ -134,17 +134,17 @@ DOM that **does not** have an event handler of its own. In the scenario
 that this happens, the browser will search up the DOM chain until it finds
 an appropriate event handler.
 
-In the example below we have a click handler registered on the <ul> with
- `id="thisOne"`. However, if we were to click the 2nd <li> with
+In the example below we have a click handler registered on the `<ul>` with
+ `id="thisOne"`. However, if we were to click the 2nd `<li>` with
  `<!--the innermost-->`, it will still run our click handler.
 
 ```html
 <html>
   <div>
-    <ul> id="thisOne" class="d1">Title  <!-- the topmost --></ul>
+    <ul id="thisOne" class="d1">Title</ul><!-- the topmost -->
       <li class="d2">1</li>
       <li class="d2">2</li>
-      <li class="d3">3 <!-- the innermost --></li>
+      <li class="d3">3</li><!-- the innermost -->
     </ul>
   </div>
 </html>
@@ -171,8 +171,6 @@ some event handlers for them?
 ## Gotchas
 
 -   Beware the difference between jQuery setters and getters.
--   Beware the difference between a jQuery collection and a
-    [jQuery](http://api.jquery.com/Types/#jQuery) object.
 -   Beware the difference between `.html()`, `.text()`, and `.val()`
 -   Beware treating jQuery objects as arrays. They aren't!
 -   Beware attaching click handlers in a loop. It won't work, and it isn't
