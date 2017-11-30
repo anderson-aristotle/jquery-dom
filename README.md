@@ -183,6 +183,7 @@ some event handlers for them?
 -   [Quick jQuery Reference Cheatsheet](https://oscarotero.com/jquery/)
 -   [JS Fiddle Event Bubbling Example](http://jsfiddle.net/cwtuan/je1g3f29/16/)
 -   [Live DOM tree viewer](https://software.hixie.ch/utilities/js/live-dom-viewer/)
+-   [jQuery Cheatsheet](http://htmlcheatsheet.com/jquery/)
 
 ## License
 1.  All content is licensed under a CC­BY­NC­SA 4.0 license.
