@@ -75,7 +75,7 @@ We can use `.val()` on the Jimmy Buffett page to get and set text in the search 
 
 The DOM emits 'events' when users interact with the browser. Event handlers
 'listen' for DOM events emitted from the DOM node they are 'attached' to, and run
-code when that event happens. Some common events that we might want to use event handlers on are `'click'`, `'hover'`, `'focus'`, or user keystrokes.
+code when that event happens. Some common events that we might want to use event handlers on are `'click'`, `'mouseover'`, `'focus'`, or user keystrokes.
 [Full list of DOM events](https://developer.mozilla.org/en-US/docs/Web/Events)
 
 <!-- Demonstrate using an event handler on the Jimmy Buffett page -->
