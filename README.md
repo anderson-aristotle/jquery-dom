@@ -49,9 +49,9 @@ Demo translating a wireframe into a tree diagram.
 
 ## Code-Along: DOM Traversal
 
--   Deface the [Jimmy Buffet](https://en.wikipedia.org/wiki/Jimmy_Buffett)
+-   Deface the [Jimmy Buffett](https://en.wikipedia.org/wiki/Jimmy_Buffettt)
 
-  <!-- Use jQuery to change the Jimmy Buffet page -->
+  <!-- Use jQuery to change the Jimmy Buffett page -->
 
 ## Demo: jQuery Setters & Getters
 
@@ -69,20 +69,20 @@ but that `.val(value)` is a setter on an element. Be sure you're using the
 correct method. Reading examples is very helpful, and the jQuery examples in the
 docs are fully functional!
 
-We can use `.val()` on the Jimmy Buffet page to get and set text in the search box.
+We can use `.val()` on the Jimmy Buffett page to get and set text in the search box.
 
 ## Demo: DOM Events and Event Handlers
 
 The DOM emits 'events' when users interact with the browser. Event handlers
 'listen' for DOM events emitted from the DOM node they are 'attached' to, and run
-code when that event happens. Some common events that we might want to use event handlers on are `'click'`, `'hover'`, `'focus'`, or user keystrokes.
+code when that event happens. Some common events that we might want to use event handlers on are `'click'`, `'mouseover'`, `'focus'`, or user keystrokes.
 [Full list of DOM events](https://developer.mozilla.org/en-US/docs/Web/Events)
 
-<!-- Demonstrate using an event handler on the Jimmy Buffet page -->
+<!-- Demonstrate using an event handler on the Jimmy Buffett page -->
 
 ## Lab: Register an Event Handler
 
-Continue defacing the Jimmy Buffet.  This time with an event handler.
+Continue defacing the Jimmy Buffett.  This time with an event handler.
 
 ## Lab: Research Common jQuery Functions
 
@@ -108,8 +108,8 @@ Open the console in chrome and paste the following code in.
 
 ```js
 $(".toctitle").on('click', function(event){
-  console.log("event is ", event);
-});
+  console.log("event is ", event)
+})
 ```
 
 How would we access specific attributes of that event? Try adding this code
@@ -117,13 +117,13 @@ now as well:
 
 ```js
 $(".toctitle").on('click', function(event){
-  console.log("event.target is ", event.target);
-});
+  console.log("event.target is ", event.target)
+})
 $(".toctitle").on('click', function(event){
-  console.log("event.type is ", event.type);
-});
+  console.log("event.type is ", event.type)
+})
 ```
-<!-- Use .on() on the Jimmy Buffet page to demonstrate -->
+<!-- Use .on() on the Jimmy Buffett page to demonstrate -->
 
 ## Bubbling
 
@@ -153,7 +153,7 @@ In the example below we have a click handler registered on the `<ul>` with
 ```js
 $("#thisOne").on('click', function(){
   // do some stuff here
-});
+})
 ```
 
 As a quick review, what would the DOM tree look like for the above html? Let's
@@ -183,6 +183,7 @@ some event handlers for them?
 -   [Quick jQuery Reference Cheatsheet](https://oscarotero.com/jquery/)
 -   [JS Fiddle Event Bubbling Example](http://jsfiddle.net/cwtuan/je1g3f29/16/)
 -   [Live DOM tree viewer](https://software.hixie.ch/utilities/js/live-dom-viewer/)
+-   [jQuery Cheatsheet](http://htmlcheatsheet.com/jquery/)
 
 ## License
 1.  All content is licensed under a CC­BY­NC­SA 4.0 license.
