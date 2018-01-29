@@ -49,7 +49,7 @@ Demo translating a wireframe into a tree diagram.
 
 ## Code-Along: DOM Traversal
 
--   Deface the [Jimmy Buffett](https://en.wikipedia.org/wiki/Jimmy_Buffettt)
+-   Deface the [Jimmy Buffett](https://en.wikipedia.org/wiki/Jimmy_Buffett)
 
   <!-- Use jQuery to change the Jimmy Buffett page -->
 
