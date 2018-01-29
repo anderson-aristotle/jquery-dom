@@ -30,12 +30,6 @@ In the browser, the DOM is represented by the `document` object. JS specifies
 some built-in methods that make using the DOM easier. Remember! The DOM
 **is not** the source code.
 
-## jQuery
-
--   The "query" in jQuery comes from SQL.
--   We can retrieve and put data into the DOM using jQuery.
--   jQuery uses selectors (css selectors, remember?)
-
 ## Demo: Diagram the DOM
 
 Demo translating a wireframe into a tree diagram.
@@ -46,6 +40,28 @@ Demo translating a wireframe into a tree diagram.
 1.  Developer: Draw a tree diagram
 1.  Consultant: Draw the solution
 1.  Discussion and questions
+
+## jQuery
+
+jQuery is a popular Javascript library that simplifies many developer tasks such as:
+  - DOM manipulation
+    - select
+    - traverse
+    - effects and animation
+  - Event handling
+  - AJAX calls
+
+The "query" in jQuery comes from SQL (Structured Query Language). We can make queries (retrieve and put data into the DOM) using jQuery by way of selectors:
+```js
+// longhand syntax
+jQuery("p")
+
+// shorthand syntax
+$("p")
+
+// use modern CSS selectors
+$("main .title > .sub-title")
+```
 
 ## Code-Along: DOM Traversal
 
