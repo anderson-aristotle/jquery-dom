@@ -141,42 +141,6 @@ $(".toctitle").on('click', function(event){
 ```
 <!-- Use .on() on the Jimmy Buffett page to demonstrate -->
 
-## Bubbling
-
-When dealing with the DOM and click handlers, we're faced with a small
-problem that is simple to work-around if you know it exists. **Bubbling**
-occurs when an event takes place on a child element of the
-DOM that **does not** have an event handler of its own. In the scenario
-that this happens, the browser will search up the DOM chain until it finds
-an appropriate event handler.
-
-In the example below we have a click handler registered on the `<ul>` with
- `id="thisOne"`. However, if we were to click the 3rd `<li>` with
- `<!--the innermost-->`, it will still run our click handler.
-
-```html
-<html>
-  <div>
-    <ul id="thisOne" class="d1">Title</ul><!-- the topmost -->
-      <li class="d2">1</li>
-      <li class="d2">2</li>
-      <li class="d3">3</li><!-- the innermost -->
-    </ul>
-  </div>
-</html>
-```
-
-```js
-$("#thisOne").on('click', function(){
-  // do some stuff here
-})
-```
-
-As a quick review, what would the DOM tree look like for the above html? Let's
-take 2 minutes and diagram it together. What would we do if the `<li>`s or the
- `<ul>` as a whole weren't present on time of page load, but we needed to add
-some event handlers for them?
-
 ## Best Practices
 
 -   When attaching a `click` handler (or any handler), opt for the
@@ -201,7 +165,6 @@ some event handlers for them?
 -   [Live DOM tree viewer](https://software.hixie.ch/utilities/js/live-dom-viewer/)
 -   [jQuery Cheatsheet](http://htmlcheatsheet.com/jquery/)
 
-## License
-1.  All content is licensed under a CC­BY­NC­SA 4.0 license.
-1.  All software code is licensed under GNU GPLv3. For commercial use or
+1. All content is licensed under a CC­BY­NC­SA 4.0 license.
+1. All software code is licensed under GNU GPLv3. For commercial use or
     alternative licensing, please contact legal@ga.co.
