@@ -69,7 +69,7 @@ $("main .title > .sub-title")
 
 ## Code-Along: DOM Traversal
 
-- Deface the [Jimmy Buffett](https://en.wikipedia.org/wiki/Jimmy_Buffett)
+- Deface the [Jimmy Buffett](https://en.wikipedia.org/wiki/Jimmy_Buffett) page.
 
   <!-- Use jQuery to change the Jimmy Buffett page -->
 
