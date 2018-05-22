@@ -6,11 +6,11 @@
 
 By the end of this, developers should be able to:
 
-- Diagram the DOM
-- Reference jQuery documentation when learning a new technique
-- After selecting a DOM node, reach another node using traversal
-- Get data from the DOM using jQuery
-- Put data into the DOM using jQuery
+- Diagram the DOM.
+- Reference jQuery documentation when learning a new technique.
+- After selecting a DOM node, reach another node using traversal.
+- Get data from the DOM using jQuery.
+- Put data into the DOM using jQuery.
 
 ## Preparation
 
