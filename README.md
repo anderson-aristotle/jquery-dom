@@ -163,13 +163,14 @@ When attaching a `click` handler (or any handler), opt for the `.on('click', fun
 
 ## Additional Resources
 
-- [JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - [jQuery API Documentation](https://api.jquery.com/)
-- [Quick jQuery Reference Cheatsheet](https://oscarotero.com/jquery/)
 - [Try jQuery](http://try.jquery.com/)
 - [JS Fiddle Event Bubbling Example](http://jsfiddle.net/cwtuan/je1g3f29/16/)
 - [Live DOM tree viewer](https://software.hixie.ch/utilities/js/live-dom-viewer/)
-- [jQuery Cheatsheet](http://htmlcheatsheet.com/jquery/)
+- jQuery Cheatsheets
+  - [Quick jQuery Reference Cheatsheet](https://oscarotero.com/jquery/)
+  - [jQuery Cheatsheet](http://htmlcheatsheet.com/jquery/)
+
 
 1. All content is licensed under a CC­BY­NC­SA 4.0 license.
 1. All software code is licensed under GNU GPLv3. For commercial use or
