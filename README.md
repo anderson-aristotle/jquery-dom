@@ -43,7 +43,7 @@ Demo translating a wireframe into a tree diagram.
 
 ## jQuery
 
-jQuery is a popular Javascript library that simplifies many developer tasks such
+jQuery is a popular JavaScript library that simplifies many developer tasks such
 as:
 
 - DOM manipulation
@@ -150,7 +150,11 @@ $(".toctitle").on('click', function(event){
 
 ## Best Practice
 
-When attaching a `click` handler (or any handler), opt for the `.on('click', function(){})` version over the `.click(function(){})` verion. The reason is `.on('click', )` accepts more arguments so we can be more specific with our handlers. See [.click()](https://api.jquery.com/click/) vs. [.on()](http://api.jquery.com/on/)
+When attaching a `click` handler (or any handler), opt for the
+`.on('click', function(){})` version over the `.click(function(){})` version.
+The reason is `.on('click', )` accepts more arguments so we can be more specific
+with our handlers. See [.click()](https://api.jquery.com/click/) vs.
+[.on()](http://api.jquery.com/on/)
 
 ## Gotchas
 
@@ -170,7 +174,6 @@ When attaching a `click` handler (or any handler), opt for the `.on('click', fun
 - jQuery Cheatsheets
   - [Quick jQuery Reference Cheatsheet](https://oscarotero.com/jquery/)
   - [jQuery Cheatsheet](http://htmlcheatsheet.com/jquery/)
-
 
 1. All content is licensed under a CC­BY­NC­SA 4.0 license.
 1. All software code is licensed under GNU GPLv3. For commercial use or
