@@ -15,7 +15,7 @@ By the end of this, developers should be able to:
 ## Preparation
 
 1. Fork and clone this repository.
- [FAQ](https://github.com/ga-wdi-boston/meta/wiki/ForkAndClone)
+ [FAQ](https://git.generalassemb.ly/ga-wdi-boston/meta/wiki/ForkAndClone)
 1. Create a new branch, `training`, for your work.
 1. Checkout to the `training` branch.
 1. Install dependencies with `npm install`.
@@ -110,19 +110,19 @@ Continue defacing the Jimmy Buffett.  This time with an event handler.
 
 Here is a list of most commonly used jQuery API functions:
 
-1. [`find()`](http://api.jquery.com/find)
-1. [`hide()`](http://api.jquery.com/hide)
-1. [`show()`](http://api.jquery.com/show)
-1. [`html()`](http://api.jquery.com/html)
-1. [`append()`](http://api.jquery.com/append)
-1. [`prepend()`](http://api.jquery.com/prepend)
-1. [`on()`](http://api.jquery.com/on)
-1. [`off()`](http://api.jquery.com/off)
-1. [`css()`](http://api.jquery.com/css)
-1. [`attr()`](http://api.jquery.com/attr)
-1. [`val()`](http://api.jquery.com/val)
-1. [`text()`](http://api.jquery.com/text)
-1. [`each()`](http://api.jquery.com/each)
+1. [`find()`](https://api.jquery.com/find)
+1. [`hide()`](https://api.jquery.com/hide)
+1. [`show()`](https://api.jquery.com/show)
+1. [`html()`](https://api.jquery.com/html)
+1. [`append()`](https://api.jquery.com/append)
+1. [`prepend()`](https://api.jquery.com/prepend)
+1. [`on()`](https://api.jquery.com/on)
+1. [`off()`](https://api.jquery.com/off)
+1. [`css()`](https://api.jquery.com/css)
+1. [`attr()`](https://api.jquery.com/attr)
+1. [`val()`](https://api.jquery.com/val)
+1. [`text()`](https://api.jquery.com/text)
+1. [`each()`](https://api.jquery.com/each)
 
 ## Demo: event.target
 
@@ -154,7 +154,7 @@ When attaching a `click` handler (or any handler), opt for the
 `.on('click', function(){})` version over the `.click(function(){})` version.
 The reason is `.on('click', )` accepts more arguments so we can be more specific
 with our handlers. See [.click()](https://api.jquery.com/click/) vs.
-[.on()](http://api.jquery.com/on/)
+[.on()](https://api.jquery.com/on/)
 
 ## Gotchas
 
@@ -168,7 +168,6 @@ with our handlers. See [.click()](https://api.jquery.com/click/) vs.
 ## Additional Resources
 
 - [jQuery API Documentation](https://api.jquery.com/)
-- [Try jQuery](http://try.jquery.com/)
 - [JS Fiddle Event Bubbling Example](http://jsfiddle.net/cwtuan/je1g3f29/16/)
 - [Live DOM tree viewer](https://software.hixie.ch/utilities/js/live-dom-viewer/)
 - jQuery Cheatsheets
