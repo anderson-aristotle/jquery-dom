@@ -22,7 +22,7 @@ By the end of this, developers should be able to:
 
 ## The Document Object Model (DOM)
 
-- The DOM is a recursive tree.
+**The DOM is a recursive tree.**
 
 The DOM is a (potentially) large object that describes the structure of our
 content. Since it's an object, we can use normal techniques to get and set data!
@@ -98,7 +98,7 @@ The DOM emits 'events' when users interact with the browser. Event handlers
 'listen' for DOM events emitted from the DOM node they are 'attached' to, and run
 code when that event happens. Some common events that we might want to use event
 handlers on are `'click'`, `'mouseover'`, `'focus'`, or user keystrokes.
-[Full list of DOM events](https://developer.mozilla.org/en-US/docs/Web/Events)
+[Full list of DOM events](https://developer.mozilla.org/en-US/docs/Web/Events).
 
 <!-- Demonstrate using an event handler on the Jimmy Buffett page -->
 
@@ -154,12 +154,12 @@ When attaching a `click` handler (or any handler), opt for the
 `.on('click', function(){})` version over the `.click(function(){})` version.
 The reason is `.on('click', )` accepts more arguments so we can be more specific
 with our handlers. See [.click()](https://api.jquery.com/click/) vs.
-[.on()](https://api.jquery.com/on/)
+[.on()](https://api.jquery.com/on/).
 
 ## Gotchas
 
 - Beware the difference between jQuery setters and getters.
-- Beware the difference between `.html()`, `.text()`, and `.val()`
+- Beware the difference between `.html()`, `.text()`, and `.val()`.
 - Beware treating jQuery objects as arrays. They aren't!
 - Beware attaching click handlers in a loop. It won't work, and it isn't
     necessary, because when you use `.on('click')` jQuery will attach the
