@@ -69,7 +69,7 @@ as:
 - Event handling
 - AJAX calls
 
-The "query" in jQuery comes from SQL (Structured Query Language). We can make
+The "query" in jQuery means "a request for information". We can make
 queries (retrieve and put data into the DOM) using jQuery by way of selectors:
 
 ```js
