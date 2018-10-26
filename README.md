@@ -26,9 +26,12 @@ By the end of this, developers should be able to:
 
 The DOM is a (potentially) large object that describes the structure of our
 content. Since it's an object, we can use normal techniques to get and set data!
-In the browser, the DOM is represented by the `document` object. JS specifies
-some built-in methods that make using the DOM easier. Remember! The DOM
-**is not** the source code.
+In the browser, the DOM is represented by the `document` object. This
+object represents all elements on the webpage and is the entry point for
+accessing those elements. A list of all methods/properties of the document
+object can be found [here](https://developer.mozilla.org/en-US/docs/Web/API/Document).
+JS specifies some built-in methods that make using the DOM easier. Remember! The
+DOM **is not** the source code.
 
 ## Demo: Diagram the DOM
 
@@ -40,6 +43,19 @@ Demo translating a wireframe into a tree diagram.
 1. Developer: Draw a tree diagram
 1. Consultant: Draw the solution
 1. Discussion and questions
+
+## Demo: The Document Object
+
+```js
+// returns a representation of the current html document
+document
+
+// returns a representation of the body element
+document.querySelector('body')
+
+// use document object to change style
+document.querySelector('body').style.backgroundColor = 'red'
+```
 
 ## jQuery
 
