@@ -74,13 +74,13 @@ queries (retrieve and put data into the DOM) using jQuery by way of selectors:
 
 ```js
 // longhand syntax
-jQuery("p")
+jQuery('p')
 
 // shorthand syntax
-$("p")
+$('p')
 
 // use modern CSS selectors
-$("main .title > .sub-title")
+$('main .title > .sub-title')
 ```
 
 ## Code-Along: DOM Traversal
@@ -145,8 +145,8 @@ Here is a list of most commonly used jQuery API functions:
 Open the console in chrome and paste the following code in.
 
 ```js
-$(".toctitle").on('click', function(event){
-  console.log("event is ", event)
+$('.toctitle').on('click', function(event){
+  console.log('event is', event)
 })
 ```
 
@@ -154,11 +154,11 @@ How would we access specific attributes of that event? Try adding this code
 now as well:
 
 ```js
-$(".toctitle").on('click', function(event){
-  console.log("event.target is ", event.target)
+$('.toctitle').on('click', function(event){
+  console.log('event.target is ', event.target)
 })
-$(".toctitle").on('click', function(event){
-  console.log("event.type is ", event.type)
+$('.toctitle').on('click', function(event){
+  console.log('event.type is ', event.type)
 })
 ```
 
