@@ -116,12 +116,6 @@ code when that event happens. Some common events that we might want to use event
 handlers on are `'click'`, `'mouseover'`, `'focus'`, or user keystrokes.
 [Full list of DOM events](https://developer.mozilla.org/en-US/docs/Web/Events).
 
-<!-- Demonstrate using an event handler on the Jimmy Buffett page -->
-
-## Lab: Register an Event Handler
-
-Continue defacing the Jimmy Buffett.  This time with an event handler.
-
 ## Lab: Research Common jQuery Functions
 
 Here is a list of most commonly used jQuery API functions:
@@ -163,6 +157,23 @@ $('.toctitle').on('click', function(event){
 ```
 
 <!-- Use .on() on the Jimmy Buffett page to demonstrate -->
+
+# Lab: Using jQuery in _your_ front-end application
+
+Take a look at the `assets/scripts/app.js` file. Alter this file to log event 
+information for each event. What kind of information do we see in the `event`
+argument that `.on` passes to its callback?
+
+Afterwards, edit the event handlers to perform the following actions:
+1. Our HTML element with the ID 'red-and-green' should be red on hover, and
+green with no hover.
+2. Our HTML element with the ID 'change-my-text' should have it's text changed
+on a click event.
+3. Our HTML element with the ID 'disappear-me' should disappear on hover.
+4. Our button with ID 'input-get' should grab the text within the input element
+with ID 'special-input'
+5. Our button with ID 'input-set' should set the text within the input element
+with ID 'special-input'
 
 ## Best Practice
 
