@@ -8,4 +8,27 @@
 
 $(() => {
   // your JS code goes here
+  $('#disappear-me').on('someevent', function (event) {
+    // your code here
+  })
+
+  $('#red-and-green').on('someevent', function (event) {
+    // your code here
+  })
+
+  $('#red-and-green').on('someevent', function (event) {
+    // your code here
+  })
+
+  $('#change-my-text').on('someevent', function (event) {
+    // your code here
+  })
+
+  $('#input-set').on('someevent', function (event) {
+    // your code here
+  })
+
+  $('#input-get').on('someevent', function (event) {
+    // your code here
+  })
 })

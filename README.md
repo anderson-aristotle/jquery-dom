@@ -26,9 +26,12 @@ By the end of this, developers should be able to:
 
 The DOM is a (potentially) large object that describes the structure of our
 content. Since it's an object, we can use normal techniques to get and set data!
-In the browser, the DOM is represented by the `document` object. JS specifies
-some built-in methods that make using the DOM easier. Remember! The DOM
-**is not** the source code.
+In the browser, the DOM is represented by the `document` object. This
+object represents all elements on the webpage and is the entry point for
+accessing those elements. A list of all methods/properties of the document
+object can be found [here](https://developer.mozilla.org/en-US/docs/Web/API/Document).
+JS specifies some built-in methods that make using the DOM easier. Remember! The
+DOM **is not** the source code.
 
 ## Demo: Diagram the DOM
 
@@ -40,6 +43,19 @@ Demo translating a wireframe into a tree diagram.
 1. Developer: Draw a tree diagram
 1. Consultant: Draw the solution
 1. Discussion and questions
+
+## Demo: The Document Object
+
+```js
+// returns a representation of the current html document
+document
+
+// returns a representation of the body element
+document.querySelector('body')
+
+// use document object to change style
+document.querySelector('body').style.backgroundColor = 'red'
+```
 
 ## jQuery
 
@@ -53,18 +69,18 @@ as:
 - Event handling
 - AJAX calls
 
-The "query" in jQuery comes from SQL (Structured Query Language). We can make
+The "query" in jQuery means "a request for information". We can make
 queries (retrieve and put data into the DOM) using jQuery by way of selectors:
 
 ```js
 // longhand syntax
-jQuery("p")
+jQuery('p')
 
 // shorthand syntax
-$("p")
+$('p')
 
 // use modern CSS selectors
-$("main .title > .sub-title")
+$('main .title > .sub-title')
 ```
 
 ## Code-Along: DOM Traversal
@@ -100,12 +116,6 @@ code when that event happens. Some common events that we might want to use event
 handlers on are `'click'`, `'mouseover'`, `'focus'`, or user keystrokes.
 [Full list of DOM events](https://developer.mozilla.org/en-US/docs/Web/Events).
 
-<!-- Demonstrate using an event handler on the Jimmy Buffett page -->
-
-## Lab: Register an Event Handler
-
-Continue defacing the Jimmy Buffett.  This time with an event handler.
-
 ## Lab: Research Common jQuery Functions
 
 Here is a list of most commonly used jQuery API functions:
@@ -129,8 +139,8 @@ Here is a list of most commonly used jQuery API functions:
 Open the console in chrome and paste the following code in.
 
 ```js
-$(".toctitle").on('click', function(event){
-  console.log("event is ", event)
+$('.toctitle').on('click', function(event){
+  console.log('event is', event)
 })
 ```
 
@@ -138,15 +148,32 @@ How would we access specific attributes of that event? Try adding this code
 now as well:
 
 ```js
-$(".toctitle").on('click', function(event){
-  console.log("event.target is ", event.target)
+$('.toctitle').on('click', function(event){
+  console.log('event.target is ', event.target)
 })
-$(".toctitle").on('click', function(event){
-  console.log("event.type is ", event.type)
+$('.toctitle').on('click', function(event){
+  console.log('event.type is ', event.type)
 })
 ```
 
 <!-- Use .on() on the Jimmy Buffett page to demonstrate -->
+
+# Lab: Using jQuery in _your_ front-end application
+
+Take a look at the `assets/scripts/app.js` file. Alter this file to log event 
+information for each event. What kind of information do we see in the `event`
+argument that `.on` passes to its callback?
+
+Afterwards, edit the event handlers to perform the following actions:
+1. Our HTML element with the ID 'red-and-green' should be red on hover, and
+green with no hover.
+2. Our HTML element with the ID 'change-my-text' should have it's text changed
+on a click event.
+3. Our HTML element with the ID 'disappear-me' should disappear on hover.
+4. Our button with ID 'input-get' should grab the text within the input element
+with ID 'special-input'
+5. Our button with ID 'input-set' should set the text within the input element
+with ID 'special-input'
 
 ## Best Practice
 
