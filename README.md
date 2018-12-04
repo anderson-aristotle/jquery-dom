@@ -173,7 +173,7 @@ green with no hover.
 on a click event.
 3. Our HTML element with the ID 'disappear-me' should disappear on hover.
 4. Our button with ID 'input-get' should grab the text within the input element
-with ID 'special-input'
+with ID 'special-input' and `console.log` it or append it to the DOM
 5. Our button with ID 'input-set' should set the text within the input element
 with ID 'special-input'
 
