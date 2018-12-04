@@ -160,11 +160,12 @@ $('.toctitle').on('click', function(event){
 
 # Lab: Using jQuery in _your_ front-end application
 
-Take a look at the `assets/scripts/app.js` file. Alter this file to log event 
+Take a look at the `assets/scripts/app.js` file. Alter this file to log event
 information for each event. What kind of information do we see in the `event`
 argument that `.on` passes to its callback?
 
 Afterwards, edit the event handlers to perform the following actions:
+
 1. Our HTML element with the ID 'red-and-green' should be red on hover, and
 green with no hover.
 2. Our HTML element with the ID 'change-my-text' should have it's text changed
