@@ -19,6 +19,7 @@ By the end of this, developers should be able to:
 1. Create a new branch, `training`, for your work.
 1. Checkout to the `training` branch.
 1. Install dependencies with `npm install`.
+2. Run with `grunt serve`.
 
 ## The Document Object Model (DOM)
 
@@ -160,18 +161,19 @@ $('.toctitle').on('click', function(event){
 
 # Lab: Using jQuery in _your_ front-end application
 
-Take a look at the `assets/scripts/app.js` file. Alter this file to log event 
+Take a look at the `assets/scripts/app.js` file. Alter this file to log event
 information for each event. What kind of information do we see in the `event`
 argument that `.on` passes to its callback?
 
 Afterwards, edit the event handlers to perform the following actions:
+
 1. Our HTML element with the ID 'red-and-green' should be red on hover, and
 green with no hover.
 2. Our HTML element with the ID 'change-my-text' should have it's text changed
 on a click event.
 3. Our HTML element with the ID 'disappear-me' should disappear on hover.
 4. Our button with ID 'input-get' should grab the text within the input element
-with ID 'special-input'
+with ID 'special-input' and `console.log` it or append it to the DOM
 5. Our button with ID 'input-set' should set the text within the input element
 with ID 'special-input'
 
