@@ -19,7 +19,7 @@ By the end of this, developers should be able to:
 1. Create a new branch, `training`, for your work.
 1. Checkout to the `training` branch.
 1. Install dependencies with `npm install`.
-2. Run with `grunt serve`.
+1. Run with `grunt serve`.
 
 ## The Document Object Model (DOM)
 
@@ -173,9 +173,9 @@ green with no hover.
 on a click event.
 3. Our HTML element with the ID 'disappear-me' should disappear on hover.
 4. Our button with ID 'input-get' should grab the text within the input element
-with ID 'special-input' and `console.log` it or append it to the DOM
+with ID 'special-input' and `console.log` it or append it to the DOM.
 5. Our button with ID 'input-set' should set the text within the input element
-with ID 'special-input'
+with ID 'special-input'.
 
 ## Best Practice
 
